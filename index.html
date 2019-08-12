@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="shopping-list.css">
 	<title>Document</title>
 </head>
+
 <body>
 	<h1>Shopping list</h1>
+
+	<div class="row">
+		<div class="col-12">
+			<div class="discription">
+				<label>Discription:</label>
+				<input type="text" class="enter" placeholder="" name="textHolder" value="">
+
+				<button class="descriptionBtn"> Print discription</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+			<div class="input">
+				Enter a new item:
+				<input type="text" class="addItemInput" placeholder="" name="textHolder" value="">
+
+				<button type="button" class="addItemBtn" value="addItem">ADD ITEM</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="myUl">
+		<ul>
+			
+		</ul>	
+	</div>
+
+	<div class="row">
+	    <div class="amount">
+			Total amount: 
+			<ul>
+				
+			</ul>
+		</div>	
+	</div>
+
+	<!-- <div class="removeBtn">
+		<button type="button" class="removeItemBtn" value="removeItemButton"> REMOVE LAST ITEM </button>
+	</div> -->
+
 </body>
+
 </html>
+
+<script src="./shopping-list.js" charset="utf-8"></script>
+<script src="./shopping-list-dom.js" charset="utf-8"></script>

@@ -1,0 +1,56 @@
+body{
+    /* background-color: bisque; */
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+label{
+    font: 20px arial, sans-serif;
+    font-weight: bold;
+    margin-right: 1em;
+    /* padding: 0.5em; */
+}
+
+.discription{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.descriptionBtn{
+    margin-left:1em; 
+}
+
+.input{
+    justify-content: center;
+    display: flex;
+    font: 18px arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+
+}
+
+.addItemBtn{
+    margin-left: 1em;
+}
+
+#myUl{
+    justify-content: center;
+    display: flex;
+    margin-right: 15em;
+}
+.amount{
+    font: 18px arial, sans-serif;
+    font-weight: bold;
+    margin-left: 20em;
+    margin-bottom: 2em;
+}
+/* .removeBtn{
+   margin-left: 22em;
+} */
